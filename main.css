@@ -11,7 +11,7 @@ body {
 .container{
    width: 1170px;
 }
-
+/*Contains news-feed*/
 #wrapper {
    margin-top: 16px;
    margin-bottom: 16px;
@@ -52,7 +52,7 @@ body {
    border: 0px;
 
 }
-
+/*An item on Navigation Bar*/
 .element {
    margin-top: 4px;
    padding: 3px 12px 3px 12px;
@@ -76,6 +76,7 @@ body {
    color: lightgray !important;
 }
 
+/*Logo*/
 #brand-img {
    width: 30px;
    height: 30px;
@@ -85,6 +86,7 @@ body {
    border-radius: 3px;
 }
 
+/*Profile Picture of User*/
 #display-image {
    width: 30px;
    height: 30px;
@@ -93,6 +95,7 @@ body {
    border-radius: 50%;
 }
 
+/*Menu display-image*/
 #side-display-image {
    border-radius:0px;
    margin-right:7px;
@@ -104,6 +107,7 @@ body {
    padding: 7px 0px 5px 15px;
 }
 
+/*Border around menu*/
 .border {
    border-right: 1px solid gray;
    height: 28px;
@@ -119,6 +123,7 @@ header ul .glyphicon {
    font-size: 18px;
 }
 
+/*Search Box*/
 #search {
    width: 400px;
    height: 28px;
@@ -133,6 +138,7 @@ header ul .glyphicon {
    color: #23527c;
 }
 
+/*Glyphicon on Badges*/
 .glyph-badge {
    padding: 2px 3px;
    position: relative;
@@ -175,6 +181,7 @@ header ul .glyphicon {
    margin-right: 4px;
 }
 
+/*Comment User Image*/
 .comment-display-image {
    width: 32px;
    height: 32px;
@@ -205,11 +212,13 @@ header ul .glyphicon {
    top: 8px;
 }
 
+/*Suggested Panel Sidebar*/
 #suggested-pages {
    border: 1px solid lightgray;
    padding: 4px;
 }
 
+/*Birthday's Panel Sidebar*/
 #birthday {
    border: 1px solid lightgray;
    padding: 4px;
