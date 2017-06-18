@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css3/bootstrap.css">
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+     <div class="container">
+        <header>
+           <nav class="navbar navbar-default navbar-fixed-top container" id="navigation-bar">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand white-text" href="#"><img id="brand-img" src="img/fb.jpg" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                  <form class="navbar-form navbar-left element">
+                    <div class="form-group white-text">
+                      <input type="text" class="form-control" id="search" placeholder="Search FriendsBook">
+                    </div>
+                    <button type="submit" class="btn btn-default element" id="search-btn"><span class="glyphicon glyphicon-search " aria-hidden="true"></span></button>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right white-text">
+                     <li><img src="img/dp.jpg" id="display-image" /></li>
+                    <li><a class="white-text border" href="#">Shubham</a></li>
+                    <li class="divider"></li>
+                    <li><a class="white-text" href="#">Home</a></li>
+                    <li><a class="white-text" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"><span class="badge glyph-badge">4</span></span></a></li>
+                    <li><a class="white-text" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"><span class="badge glyph-badge">9</span></span></a></li>
+                    <li><a class="white-text border" href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge glyph-badge">17</span></span></a></li>
+                    <li><a class="white-text" href="#" id="help"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Create Pages</a></li>
+                        <li><a href="#">Manage Pages</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Create Groups</a></li>
+                        <li><a href="#">Your Groups</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Create Ads</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Activity Log</a></li>
+                        <li><a href="#">News Feed Preferences</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Logout</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+           </nav>
+         </header>
+         <div class="container" id="wrapper">
+            <div class="row">
+               <div class="hidden-xs col-md-3 col-sm-4">
+                  <div id="menu">
+                     <ul class="nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#"><img src="img/dp.jpg" id="side-display-image" />Shubham Gupta</a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> News Feed</a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Messenger  <span class="badge pull-right">9</span></a></li>
+                     </ul>
+
+                     <ul class="nav nav-pills nav-stacked">
+                        <p class="side-heading">SHORTCUTS</p>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Your Pages <span class="badge pull-right">2</span></a> </li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> C++ Coding Group  <span class="badge pull-right">3</span></a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> Alkaline Nations</a></li>
+                     </ul>
+
+                     <ul class="nav nav-pills nav-stacked">
+                        <p class="side-heading">EXPLORE</p>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>  Saved  <span class="badge pull-right">4</span></a> </li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Events  <span class="badge pull-right">4</span></a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>  Groups <span class="badge pull-right">8</span></a> </li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  Pages</a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>  Pokes <span class="badge pull-right">2</span></a> </li>
+                        <li class="dropdown">
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> See more.. </a>
+                         <ul class="dropdown-menu">
+                           <li><a href="#">Friends List</a></li>
+                           <li><a href="#">On this Day</a></li>
+                           <li><a href="#">Pages Feed</a></li>
+                           <li><a href="#">Photos</a></li>
+                           <li><a href="#">Offers</a></li>
+                           <li><a href="#">Games</a></li>
+                           <li><a href="#">Recommendations</a></li>
+                           <li><a href="#">Weather</a></li>
+                         </ul>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-6 col-xs-12 col-sm-8">
+                  <div id="main">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h3 class="panel-title"><a href="#"><img class="post-image" src="img/dp2.jpg" />Satyam Joshi</a></h3>
+                        </div>
+                        <div class="panel-body">
+                           <div>
+                              <h3 class="text-post">Happy Father's Day to all the fathers out there. Cheers!</h3>
+                           </div>
+                           <div>
+                              <span><span class="glyphicon glyphicon-thumbs-up"></span>Like</span>
+                              <span><span class="glyphicon glyphicon-comment"></span>Comment</span>
+                              <span><span class="glyphicon glyphicon-send"></span>Share</span>
+                              <span class="pull-right">Posted 11 hours ago</span>
+                           </div>
+                        </div>
+                        <div class="panel-footer">
+                           <div>
+                              <span class="comment-count"><span class="glyphicon glyphicon-thumbs-up"></span> Sakshi and 14 others</span>
+                              <span class="pull-right">2 Comments</span>
+                           </div>
+                           <a href="#"><img src="img/dp.jpg" class="comment-display-image" >
+                           <input type="text" id="comment-box" placeholder="Write a Comment.." /></a>
+                         <div class="media">
+                             <div class="media-left">
+                               <a href="#">
+                                 <img class="media-object comment-display-image" src="img/dp4.jpg" />
+                               </a>
+                             </div>
+                             <div class="media-body">
+                               <h5 class="media-heading"><a href="#">Sakshi Jaiswal</a></h5>
+                               <p class="comment">
+                                  You too brother! Happy Father's Day.
+                                  <span class="pull-right">2 hours ago</span>
+                               </p>
+                               <small>
+                                  <span><a href="#">Like</a></span>
+                                  <span><a href="#">Comment</a></span>
+                               </small>
+                             </div>
+                          </div>
+
+                          <div class="media">
+                             <div class="media-left">
+                               <a href="#">
+                                 <img class="media-object comment-display-image" src="img/dp8.jpg" />
+                               </a>
+                             </div>
+                             <div class="media-body">
+                               <h5 class="media-heading"><a href="#">Amit Kumar</a></h5>
+                               <p class="comment">
+                                  Same to You.
+                                  <span class="pull-right">6 hours ago</span>
+                               </p>
+                               <small>
+                                  <span><a href="#">Like</a></span>
+                                  <span><a href="#">Comment</a></span>
+                               </small>
+                             </div>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h3 class="panel-title"><a href="#"><img class="post-image" src="img/dp1.jpg" />Piyush Ahuja</a></h3>
+                        </div>
+                        <div class="panel-body">
+                           <div>
+                              <p>
+                                 <h4>This fall. New Need for Speed. Can't Wait!</h4>
+                              </p>
+                              <img class="image-post" src="img/ipost.jpg" />
+                           </div>
+                           <div>
+                              <span><span class="glyphicon glyphicon-thumbs-up"></span>Like</span>
+                              <span><span class="glyphicon glyphicon-comment"></span>Comment</span>
+                              <span><span class="glyphicon glyphicon-send"></span>Share</span>
+                              <span class="pull-right">Posted 22 hours ago</span>
+                           </div>
+                        </div>
+                        <div class="panel-footer">
+                           <div>
+                              <span><span class="glyphicon glyphicon-thumbs-up"></span> Ananya and 54 others</span>
+                              <span class="pull-right">12 Comments  11 Shares</span>
+                           </div>
+                           <a href="#"><img src="img/dp.jpg" class="comment-display-image" >
+                           <input type="text" id="comment-box" placeholder="Write a Comment.." /></a>
+                         <div class="media">
+                             <div class="media-left">
+                               <a href="#">
+                                 <img class="media-object comment-display-image" src="img/dp6.jpg" />
+                               </a>
+                             </div>
+                             <div class="media-body">
+                               <h5 class="media-heading"><a href="#">Sakshi Kumar</a></h5>
+                               <p class="comment">
+                                  Woah! Can't Wait.
+                                  <span class="pull-right">22 mins ago</span>
+                               </p>
+                               <small>
+                                  <span><a href="#">Like</a></span>
+                                  <span><a href="#">Comment</a></span>
+                               </small>
+                             </div>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h3 class="panel-title"><a href="#"><img class="post-image" src="img/dp3.jpg" />Rashmi Gupta</a></h3>
+                        </div>
+                        <div class="panel-body">
+                           <p>BB ki Vines <3</p>
+                           <div class="embed-responsive embed-responsive-16by9 image-post">
+                              <iframe class="embed-responsive-item" width="560" height="315" src="img/dp5.jpg" frameborder="0" allowfullscreen></iframe>
+                           </div>
+                           <div>
+                              <span><span class="glyphicon glyphicon-thumbs-up"></span>Like</span>
+                              <span><span class="glyphicon glyphicon-comment"></span>Comment</span>
+                              <span><span class="glyphicon glyphicon-send"></span>Share</span>
+                              <span class="pull-right">Posted 1 day ago</span>
+                           </div>
+                        </div>
+                        <div class="panel-footer">
+                           <div>
+                              <span><span class="glyphicon glyphicon-thumbs-up"></span> Apoorva and 2 others</span>
+                              <span class="pull-right">9 Comments</span>
+                           </div>
+                           <a href="#"><img src="img/dp.jpg" class="comment-display-image" >
+                           <input type="text" id="comment-box" placeholder="Write a Comment.." /></a>
+                         <div class="media">
+                             <div class="media-left">
+                               <a href="#">
+                                 <img class="media-object comment-display-image" src="img/dp8.jpg" />
+                               </a>
+                             </div>
+                             <div class="media-body">
+                               <h5 class="media-heading"><a href="#">Mayank Anand</a></h5>
+                               <p class="comment">
+                                  Hahaha. You should see the reactions.
+                                  <span class="pull-right">4 mins ago</span>
+                               </p>
+                               <small>
+                                  <span><a href="#">Like</a></span>
+                                  <span><a href="#">Comment</a></span>
+                               </small>
+                             </div>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h3 class="panel-title"><a href="#"><img class="post-image" src="img/dp4.jpg" />Arun Garg</a></h3>
+                        </div>
+                        <div class="panel-body">
+                           <div>
+                              <blockquote>
+                                 <p>
+                                    Stay hungry. Stay foolish.
+                                 </p>
+                                 <footer>
+                                    Steve Jobs
+                                 </footer>
+                              </blockquote>
+                           </div>
+                           <div>
+                              <span><span class="glyphicon glyphicon-thumbs-up"></span>Like</span>
+                              <span><span class="glyphicon glyphicon-comment"></span>Comment</span>
+                              <span><span class="glyphicon glyphicon-send"></span>Share</span>
+                              <span class="pull-right">Posted 3 hours ago</span>
+                           </div>
+                        </div>
+                        <div class="panel-footer">
+                           <div>
+                              <span><span class="glyphicon glyphicon-thumbs-up"></span> Pinki and 18 others</span>
+                              <span class="pull-right">43 Comments  23 Shares</span>
+                           </div>
+                           <a href="#"><img src="img/dp.jpg" class="comment-display-image" >
+                           <input type="text" id="comment-box" placeholder="Write a Comment.." /></a>
+                         <div class="media">
+                             <div class="media-left">
+                               <a href="#">
+                                 <img class="media-object comment-display-image" src="img/dp7.jpg" />
+                               </a>
+                             </div>
+                             <div class="media-body">
+                               <h5 class="media-heading"><a href="#">Lakshay Gupta</a></h5>
+                               <p class="comment">
+                                  Motivational!
+                                  <span class="pull-right">2 hours ago</span>
+                               </p>
+                               <small>
+                                  <span><a href="#">Like</a></span>
+                                  <span><a href="#">Comment</a></span>
+                               </small>
+                             </div>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a href="#"><span class="col-md-6 col-xs-12 col-sm-8">Load More..</span></a>
+               </div>
+               <div class="hidden-xs hidden-sm col-md-3">
+                  <div id="sidebar">
+                     <div id="birthday">
+                        Birthday's this week<span class="pull-right"><a href"#">See all</a></span>
+                        <p>
+                           <a href="#">Sapna Garg</a>
+                        </p>
+                        <p>
+                           <a href="#">Asuna Jain</a>
+                        </p>
+                        <p>
+                           <a href="#">Amir Khan</a>
+                        </p>
+
+
+                     </div>
+                     <div>
+                        <!-- Nav tabs -->
+                       <ul class="nav nav-tabs pull-right" role="tablist">
+                         <li role="presentation" class="active"><a href="#trending" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-menu-up"></span></a></li>
+                         <li role="presentation"><a href="#sports" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-knight"></span></a></li>
+                         <li role="presentation"><a href="#politics" aria-controls="messages" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-bullhorn"></span></a></li>
+                       </ul>
+
+                       <!-- Tab panes -->
+                       <div class="tab-content">
+                         <div role="tabpanel" class="tab-pane active" id="trending"><span class="heading">Trending</span>
+                            <div class="list-group">
+                             <a href="#" class="list-group-item news-item">
+                               <h4 class="list-group-item-heading">CT Final IND vs PAK</h4>
+                               <p class="list-group-item-text">India to face Pakistan in Champions Trophy Final 2017 in London on 18th June.</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">Apple to release iPhone 8</h4>
+                               <p class="list-group-item-text">Apple will be releasing its 10th iPhone Anniversary in September.</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">Amazon acquires Whole Foods for 13.2bn</h4>
+                               <p class="list-group-item-text">Amazon acquires Whole Food Market in biggest deal for 13.2bn USD</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">Friendsbook trends changes once again</h4>
+                               <p class="list-group-item-text">Once again the Yearly Friendsbook Data Shows change in trends.</p>
+                             </a>
+                           </div>
+                         </div>
+                         <div role="tabpanel" class="tab-pane" id="sports"><span class="heading">Sports</span>
+                            <div class="list-group">
+                             <a href="#" class="list-group-item news-item">
+                               <h4 class="list-group-item-heading">CT Final IND vs PAK</h4>
+                               <p class="list-group-item-text">India to face Pakistan in Champions Trophy Final 2017 in London on 18th June.</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">Srikanth gets it for India</h4>
+                               <p class="list-group-item-text">Srikanth wins the Indonesian Open final. Winning on 4-3-4-6</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">India to play Hockey Semi-Finals</h4>
+                               <p class="list-group-item-text">India will face Ausralia in Hockey Semi-Finals on Sunday</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">UCL selection to take Place soon</h4>
+                               <p class="list-group-item-text">UCL selection will soon take place in Marayem Arena, Spain for 26th Time.</p>
+                             </a>
+                           </div>
+                         </div>
+                         <div role="tabpanel" class="tab-pane" id="politics"><span class="heading">Politics</span>
+                            <div class="list-group">
+                             <a href="#" class="list-group-item news-item">
+                               <h4 class="list-group-item-heading">Congress Man attacked after the Parliament</h4>
+                               <p class="list-group-item-text">Congress Man attacked outside the parliament. Culprit to appear in court on 22nd.</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">Brexit affects neighbouring Businesses</h4>
+                               <p class="list-group-item-text">Brexit soon to take place affects neighbouring businesses imensly before.</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">Soon to take place Russian Elections</h4>
+                               <p class="list-group-item-text">Presidential elections in Russia to take place soon. But might as well affects the economy.</p>
+                             </a>
+
+                             <a href="#" class="list-group-item">
+                               <h4 class="list-group-item-heading">Donald Trump to elect Finance Commitee</h4>
+                               <p class="list-group-item-text">Donald Trump to elect new Finance commitee soon. As new Aligations are put on the existing.</p>
+                             </a>
+                           </div>
+                        </div>
+                       </div>
+
+                     </div>
+                     <div id="suggested-pages">
+                        Suggested Pages<span class="pull-right"><a href"#">See all</a></span>
+                        <a href="#" class="thumbnail">
+                           <img src="img/pages.jpg" />
+                         </a>
+                         <span><span class="glyphicon glyphicon-thumbs-up"></span>  Like Page</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer>
+            <ul class="nav nav-pills pull-right">
+               <li role="presentation"><a href="#">About Us</a></li>
+               <li role="presentation"><a href="#">Home</a></li>
+               <li role="presentation"><a href="#">Privacy</a></li>
+               <li role="presentation"><a href="#">Advertising</a></li>
+               <li role="presentation"><a href="#">Cookies</a></li>
+               <li role="presentation"><a href="#">Ad Choices</a></li>
+            </ul>
+         </footer>
+      </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    --><script src="js3/bootstrap.js"></script>
+  </body>
+</html>
