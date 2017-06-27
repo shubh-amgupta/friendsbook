@@ -28,9 +28,28 @@ body {
    height: 600px;
    /*background-color: #e9ebee;*/
 }
+
 #menu{
    height: 600px;
    background-color: #e9ebee;
+}
+
+#menu a {
+   color: rgba(0, 0, 0, .80);
+   font-size: 13px;
+   padding-left: 20px;
+   padding-bottom: 0px;
+   padding-top: 10px;
+}
+
+#menu ul .glyphicon {
+   padding-right: 7px;
+   font-size: 14px;
+}
+
+#menu .side-heading {
+   color: rgba(88, 88, 88, .7);
+   font-size: 13px;
 }
 
 #menu p {
@@ -52,6 +71,68 @@ body {
    border: 0px;
 
 }
+
+#requests {
+   display: none;
+}
+
+#message {
+   display: none;
+}
+
+#notifications {
+   display: none;
+}
+
+#help_navbar {
+   display: none;
+}
+
+#see_more {
+   display: none;
+}
+
+@media (max-width : 768px){
+
+   #bs-example-navbar-collapse-1 {
+      background-color: rgba(0, 0, 0, .7);
+   }
+
+   #search, #search-btn, #display-image, form{
+      display: none;
+   }
+
+   #search {
+      width: 250px;
+   }
+
+   #requests {
+      display: inline;
+      margin-left: 10px;
+   }
+
+   #message {
+      display: inline;
+      margin-left: 10px;
+   }
+
+   #notifications {
+      display: inline;
+      margin-left: 5px;
+   }
+
+   #help_navbar {
+      display: inline;
+      margin-left: 22px;
+   }
+
+   #see_more {
+      display: inline;
+      margin-right: 10px;
+   }
+
+}
+
 /*An item on Navigation Bar*/
 .element {
    margin-top: 4px;
@@ -80,7 +161,6 @@ body {
 #brand-img {
    width: 30px;
    height: 30px;
-   background-color: red;
    padding: 0;
    margin-top: -1px;
    border-radius: 3px;
@@ -125,9 +205,16 @@ header ul .glyphicon {
 
 /*Search Box*/
 #search {
-   width: 400px;
+   width: 450px;
    height: 28px;
 }
+
+@media (max-width : 992px) {
+   #search {
+      width: 400px;
+   }
+}
+
 
 .side-heading {
    padding: 20px 15px 0px 15px;
@@ -145,6 +232,7 @@ header ul .glyphicon {
    top: -13px;
    left: -5px;
    background-color: red;
+   border-radius: 3px;
 }
 
 .panel-body .glyphicon {
@@ -173,6 +261,11 @@ header ul .glyphicon {
 
 #sidebar::-webkit-scrollbar {
    display: none;
+}
+
+#sidebar .glyphicon-signal {
+   font-size: 14px;
+   color: #4267b2;
 }
 
 .post-image {
@@ -216,6 +309,11 @@ header ul .glyphicon {
 #suggested-pages {
    border: 1px solid lightgray;
    padding: 4px;
+}
+
+#carousel-example-generic {
+   height: 150px;
+   text-align: center;
 }
 
 /*Birthday's Panel Sidebar*/
