@@ -318,13 +318,13 @@ header ul .glyphicon {
 }
 
 #comment-box {
-   width: 500px;
+   width: 470px;
    margin-top: 12px;
 }
 
 @media (max-width : 1200px) {
    #comment-box {
-      width: 430px;
+      width: 390px;
    }
 }
 
