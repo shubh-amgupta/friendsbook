@@ -8,9 +8,7 @@ body {
    border-bottom-left-radius: 5px;
 }
 
-.container{
-   width: 1170px;
-}
+
 /*Contains news-feed*/
 #wrapper {
    margin-top: 16px;
@@ -209,9 +207,16 @@ header ul .glyphicon {
    height: 28px;
 }
 
+
+@media (max-width : 1200px) {
+   #search {
+      width: 350px;
+   }
+}
+
 @media (max-width : 992px) {
    #search {
-      width: 400px;
+      width: 140px;
    }
 }
 
@@ -250,6 +255,24 @@ header ul .glyphicon {
    height: 300px;
    width: 535px;
 }
+
+@media (max-width : 768px) {
+   .image-post {
+      margin-bottom: 15px;
+      height: 200px;
+      width: 310px;
+   }
+}
+
+@media (max-width : 768px) {
+   .image-post {
+      margin-bottom: 15px;
+      height: 200px;
+      width: 310px;
+   }
+}
+
+
 
 #main, #sidebar {
    overflow: auto;
