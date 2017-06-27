@@ -256,11 +256,19 @@ header ul .glyphicon {
    width: 535px;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 1200px) {
    .image-post {
       margin-bottom: 15px;
-      height: 200px;
-      width: 310px;
+      height: 230px;
+      width: 440px;
+   }
+}
+
+@media (max-width : 992px) {
+   .image-post {
+      margin-bottom: 15px;
+      height: 250px;
+      width: 440px;
    }
 }
 
@@ -271,6 +279,7 @@ header ul .glyphicon {
       width: 310px;
    }
 }
+
 
 
 
@@ -301,11 +310,34 @@ header ul .glyphicon {
 .comment-display-image {
    width: 32px;
    height: 32px;
+   margin-right: 10px;
+}
+
+.media-list {
+   margin-top: 10px;
 }
 
 #comment-box {
    width: 500px;
    margin-top: 12px;
+}
+
+@media (max-width : 1200px) {
+   #comment-box {
+      width: 430px;
+   }
+}
+
+@media (max-width : 992px) {
+   #comment-box {
+      width: 390px;
+   }
+}
+
+@media (max-width : 768px) {
+   #comment-box {
+      width: 250px;
+   }
 }
 
 .comment-count {
