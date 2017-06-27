@@ -377,3 +377,10 @@ header ul .glyphicon {
    padding: 4px;
    margin-bottom: 15px;
 }
+
+/*Load More Button*/
+.load_more {
+   width: 100%;
+   background-color: #4267b2;
+   border-color: none;
+}
